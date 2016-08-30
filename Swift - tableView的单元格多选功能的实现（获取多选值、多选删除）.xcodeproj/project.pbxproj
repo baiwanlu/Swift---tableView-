@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E505E21D75218200E6427E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E505E11D75218200E6427E /* AppDelegate.swift */; };
+		F5E505E41D75218200E6427E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E505E31D75218200E6427E /* ViewController.swift */; };
+		F5E505E71D75218200E6427E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E505E51D75218200E6427E /* Main.storyboard */; };
+		F5E505E91D75218200E6427E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E505E81D75218200E6427E /* Assets.xcassets */; };
+		F5E505EC1D75218200E6427E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E505EA1D75218200E6427E /* LaunchScreen.storyboard */; };
+		F5E505F71D75218200E6427E /* Swift___tableView_______________________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E505F61D75218200E6427E /* Swift___tableView_______________________Tests.swift */; };
+		F5E506021D75218200E6427E /* Swift___tableView_______________________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E506011D75218200E6427E /* Swift___tableView_______________________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5E505F31D75218200E6427E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E505D61D75218100E6427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E505DD1D75218100E6427E;
+			remoteInfo = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）";
+		};
+		F5E505FE1D75218200E6427E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E505D61D75218100E6427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E505DD1D75218100E6427E;
+			remoteInfo = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5E505DE1D75218100E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E505E11D75218200E6427E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5E505E31D75218200E6427E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5E505E61D75218200E6427E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E505E81D75218200E6427E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E505EB1D75218200E6427E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E505ED1D75218200E6427E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E505F21D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E505F61D75218200E6427E /* Swift___tableView_______________________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift___tableView_______________________Tests.swift"; sourceTree = "<group>"; };
+		F5E505F81D75218200E6427E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E505FD1D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E506011D75218200E6427E /* Swift___tableView_______________________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift___tableView_______________________UITests.swift"; sourceTree = "<group>"; };
+		F5E506031D75218200E6427E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E505DB1D75218100E6427E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E505EF1D75218200E6427E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E505FA1D75218200E6427E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E505D51D75218100E6427E = {
+			isa = PBXGroup;
+			children = (
+				F5E505E01D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除） */,
+				F5E505F51D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests */,
+				F5E506001D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests */,
+				F5E505DF1D75218100E6427E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E505DF1D75218100E6427E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E505DE1D75218100E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）.app */,
+				F5E505F21D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests.xctest */,
+				F5E505FD1D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E505E01D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除） */ = {
+			isa = PBXGroup;
+			children = (
+				F5E505E11D75218200E6427E /* AppDelegate.swift */,
+				F5E505E31D75218200E6427E /* ViewController.swift */,
+				F5E505E51D75218200E6427E /* Main.storyboard */,
+				F5E505E81D75218200E6427E /* Assets.xcassets */,
+				F5E505EA1D75218200E6427E /* LaunchScreen.storyboard */,
+				F5E505ED1D75218200E6427E /* Info.plist */,
+			);
+			path = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）";
+			sourceTree = "<group>";
+		};
+		F5E505F51D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E505F61D75218200E6427E /* Swift___tableView_______________________Tests.swift */,
+				F5E505F81D75218200E6427E /* Info.plist */,
+			);
+			path = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests";
+			sourceTree = "<group>";
+		};
+		F5E506001D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E506011D75218200E6427E /* Swift___tableView_______________________UITests.swift */,
+				F5E506031D75218200E6427E /* Info.plist */,
+			);
+			path = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E505DD1D75218100E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E506061D75218200E6427E /* Build configuration list for PBXNativeTarget "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）" */;
+			buildPhases = (
+				F5E505DA1D75218100E6427E /* Sources */,
+				F5E505DB1D75218100E6427E /* Frameworks */,
+				F5E505DC1D75218100E6427E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）";
+			productName = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）";
+			productReference = F5E505DE1D75218100E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5E505F11D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E506091D75218200E6427E /* Build configuration list for PBXNativeTarget "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests" */;
+			buildPhases = (
+				F5E505EE1D75218200E6427E /* Sources */,
+				F5E505EF1D75218200E6427E /* Frameworks */,
+				F5E505F01D75218200E6427E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E505F41D75218200E6427E /* PBXTargetDependency */,
+			);
+			name = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests";
+			productName = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests";
+			productReference = F5E505F21D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5E505FC1D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E5060C1D75218200E6427E /* Build configuration list for PBXNativeTarget "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests" */;
+			buildPhases = (
+				F5E505F91D75218200E6427E /* Sources */,
+				F5E505FA1D75218200E6427E /* Frameworks */,
+				F5E505FB1D75218200E6427E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E505FF1D75218200E6427E /* PBXTargetDependency */,
+			);
+			name = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests";
+			productName = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests";
+			productReference = F5E505FD1D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E505D61D75218100E6427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "道标朱";
+				TargetAttributes = {
+					F5E505DD1D75218100E6427E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F5E505F11D75218200E6427E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5E505DD1D75218100E6427E;
+					};
+					F5E505FC1D75218200E6427E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5E505DD1D75218100E6427E;
+					};
+				};
+			};
+			buildConfigurationList = F5E505D91D75218100E6427E /* Build configuration list for PBXProject "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5E505D51D75218100E6427E;
+			productRefGroup = F5E505DF1D75218100E6427E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E505DD1D75218100E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除） */,
+				F5E505F11D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests */,
+				F5E505FC1D75218200E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E505DC1D75218100E6427E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E505EC1D75218200E6427E /* LaunchScreen.storyboard in Resources */,
+				F5E505E91D75218200E6427E /* Assets.xcassets in Resources */,
+				F5E505E71D75218200E6427E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E505F01D75218200E6427E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E505FB1D75218200E6427E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E505DA1D75218100E6427E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E505E41D75218200E6427E /* ViewController.swift in Sources */,
+				F5E505E21D75218200E6427E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E505EE1D75218200E6427E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E505F71D75218200E6427E /* Swift___tableView_______________________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E505F91D75218200E6427E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E506021D75218200E6427E /* Swift___tableView_______________________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5E505F41D75218200E6427E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E505DD1D75218100E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除） */;
+			targetProxy = F5E505F31D75218200E6427E /* PBXContainerItemProxy */;
+		};
+		F5E505FF1D75218200E6427E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E505DD1D75218100E6427E /* Swift - tableView的单元格多选功能的实现（获取多选值、多选删除） */;
+			targetProxy = F5E505FE1D75218200E6427E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5E505E51D75218200E6427E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E505E61D75218200E6427E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E505EA1D75218200E6427E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E505EB1D75218200E6427E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E506041D75218200E6427E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5E506051D75218200E6427E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E506071D75218200E6427E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift---tableView-----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5E506081D75218200E6427E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift---tableView-----------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5E5060A1D75218200E6427E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift---tableView-----------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）.app/Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）";
+			};
+			name = Debug;
+		};
+		F5E5060B1D75218200E6427E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift---tableView-----------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）.app/Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）";
+			};
+			name = Release;
+		};
+		F5E5060D1D75218200E6427E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift---tableView-----------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）";
+			};
+			name = Debug;
+		};
+		F5E5060E1D75218200E6427E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift---tableView-----------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E505D91D75218100E6427E /* Build configuration list for PBXProject "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E506041D75218200E6427E /* Debug */,
+				F5E506051D75218200E6427E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E506061D75218200E6427E /* Build configuration list for PBXNativeTarget "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E506071D75218200E6427E /* Debug */,
+				F5E506081D75218200E6427E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E506091D75218200E6427E /* Build configuration list for PBXNativeTarget "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E5060A1D75218200E6427E /* Debug */,
+				F5E5060B1D75218200E6427E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E5060C1D75218200E6427E /* Build configuration list for PBXNativeTarget "Swift - tableView的单元格多选功能的实现（获取多选值、多选删除）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E5060D1D75218200E6427E /* Debug */,
+				F5E5060E1D75218200E6427E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E505D61D75218100E6427E /* Project object */;
+}
